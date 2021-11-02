@@ -4,8 +4,10 @@ import 'react-native-gesture-handler';
 
 import AppContainer from './src/navigations'
 
+import AppProvider from './src/context/provider'
+
 export default function App() {
   return (
-    <AppContainer />
+    <AppProvider><AppContainer /></AppProvider>
   );
 }

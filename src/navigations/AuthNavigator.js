@@ -17,7 +17,7 @@ const SignUp = () => {
 
 const AuthNavigator = () => {
     return (
-        <Stack.Navigator>
+        <Stack.Navigator screenOptions={{ headerShown: false }}>
             <Stack.Screen name={LOGIN} component={Login} />
             <Stack.Screen name={REGISTER} component={Register} />
 
