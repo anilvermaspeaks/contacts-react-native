@@ -8,6 +8,6 @@ import AppProvider from './src/context/provider'
 
 export default function App() {
   return (
-    <AppProvider><AppContainer /></AppProvider>
+    <AppProvider><StatusBar style="auto" /><AppContainer /></AppProvider>
   );
 }
